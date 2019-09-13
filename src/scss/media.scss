@@ -1,0 +1,134 @@
+@media screen and(max-width:1100px){
+    .container{
+        padding: 0 10px;
+    }
+    
+    .property__slider__item{
+        margin-right: 70px;
+    }
+
+    .arrow-right{
+        right: 10px;
+    }
+    .arrow-left{
+        left: 10px;
+    }
+
+    .property__slider{
+        width: 786px;
+        overflow: hidden;
+        flex-wrap: nowrap;
+    }
+
+    .consultation__bg{
+        left: 0;
+    }
+}
+
+@media screen and(max-width:960px){
+    .service__list-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .service__list__item{
+        width: 50%;
+        border-right:none; 
+    }
+    .consultation{
+        padding-bottom: 0;
+    }
+    .consultation__bg{
+        max-width: 50%;
+        left: 0;
+    }
+    .consultation__input__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2px;
+    }
+
+    .consultation__input{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .consultation__button__block{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .consultation__button__text{
+        margin-bottom: 20px;
+    }
+    .consultation__button{
+        margin-bottom: 20px;
+    }
+
+    .property__slider{
+        width: 368px;
+    }
+    .property__slider__item{
+        margin-right: 0;
+        min-width: 368px;
+        box-sizing: border-box;
+        padding: 2px;
+        text-align: center;
+    }
+    .property__slider__location{
+        justify-content: center;
+    }
+}
+
+@media screen and(max-width:900px){
+    .header-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-right{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and(max-width:700px){
+    .nav__list{
+        justify-content: space-between;
+    }
+    .nav__list__item{
+        margin-right: 5px;
+    }
+    .consultation{
+        justify-content: center;
+    }
+    .consultation__bg{
+        display: none;
+    }
+    .consultation__block{
+        width: 80%;
+    }
+}
+
+@media screen and(max-width:500px){
+    .header-left{
+        flex-direction: column;
+    }
+
+    .header__social__list {
+        margin-bottom: 20px;
+    }
+    .header__logo{
+        padding-right: 5px;
+    }
+
+    .nav{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .service__list__item{
+        width: 100%;
+    }
+}

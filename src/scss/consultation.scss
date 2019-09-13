@@ -1,0 +1,91 @@
+.consultation{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background: radial-gradient(47.91% 47.91% at 50% 52.09%, #D73E32 0%, #DE3C30 100%);
+    padding: 32px 0 57px;
+    margin-bottom: 100px;
+}
+
+.consultation__block{
+    width:55%;
+}
+
+.consultation__title{
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.consultation__subtitle{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 41px;
+    font-weight: 300;
+}
+
+.consultation__form{
+    max-width: 542px;
+}
+
+.consultation__form__text{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.consultation__input__wrapper{
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.consultation__input{
+    width: 255px;
+    box-sizing: border-box;
+    padding: 22px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    &::placeholder{
+        color: #828282;
+    }
+}
+
+.consultation__button__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.consultation__button__text{
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.consultation__button{
+    width: 162px;
+    padding: 14px 0 12px ;
+    border-radius: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #CE382D;
+}
+
+.consultation__bg{
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+}
+
+.consultation__logo{
+    position: absolute;
+    top: 48px;
+    left: 24px;
+}
